@@ -2,6 +2,10 @@
 
 This project implements a Continuous Integration and Continuous Deployment (CI/CD) pipeline for a Spring Boot-based Java web application using Jenkins, Docker, SonarQube, and Argo CD.
 
+![image](https://github.com/user-attachments/assets/4658f48a-22b3-4dec-8d42-136bc15d91cc)
+
+
+
 ## Overview
 This project implements a robust Continuous Integration and Continuous Deployment (CI/CD) pipeline for a Spring Boot-based Java web application. The pipeline begins by utilizing Docker as an agent to pull the latest code from GitHub and build the application using a Maven Docker image, ensuring a consistent environment for every build. After building, the code undergoes static analysis with SonarQube to identify code smells, bugs, and vulnerabilities, ensuring high-quality code.
 
