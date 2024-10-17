@@ -39,7 +39,7 @@ The CI/CD pipeline is the central component of this project, enabling the automa
 ## Additional Setup Notes
 - Jenkins is configured to pull the pipeline script from the SCM (Source Code Management) system. The pipeline script is defined in the repository.
 - Docker, Jenkins, and SonarQube are installed on the server to facilitate the build and analysis processes.
-- Docker Hub and GitHub credentials are integrated with Jenkins for seamless access to repositories and registries.
+- Sonarqube,Docker hub and Github credentials are integrated with Jenkins for seamless access to repositories and registries.
 - The SonarQube server URL is adjusted in the repository files to fit your environment.
 
 ## Deployment with Minikube and Argo CD
