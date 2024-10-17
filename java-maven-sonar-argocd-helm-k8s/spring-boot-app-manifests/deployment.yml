@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: sohail03/train:replaceImageTag
+        image: sohail03/train:6
         ports:
         - containerPort: 8080
